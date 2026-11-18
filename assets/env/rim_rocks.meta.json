@@ -1,0 +1,126 @@
+{
+  "name": "rim_rocks",
+  "rocks": {
+    "rim_boulder_a": {
+      "tris": 5198,
+      "size": [
+        3.71,
+        2.77,
+        3.3
+      ]
+    },
+    "rim_boulder_b": {
+      "tris": 3000,
+      "size": [
+        2.5,
+        1.58,
+        2.02
+      ]
+    },
+    "rim_boulder_c": {
+      "tris": 3000,
+      "size": [
+        1.93,
+        2.96,
+        1.51
+      ]
+    },
+    "rim_cliff_a": {
+      "tris": 8000,
+      "size": [
+        12.31,
+        10.23,
+        8.09
+      ]
+    },
+    "rim_columns_a": {
+      "tris": 5104,
+      "size": [
+        10.51,
+        4.87,
+        10.18
+      ]
+    },
+    "rim_columns_b": {
+      "tris": 1564,
+      "size": [
+        5.0,
+        2.18,
+        5.52
+      ]
+    },
+    "rim_columns_c": {
+      "tris": 4156,
+      "size": [
+        5.66,
+        10.2,
+        7.41
+      ]
+    },
+    "rim_slab_a": {
+      "tris": 5200,
+      "size": [
+        6.2,
+        2.21,
+        3.36
+      ]
+    },
+    "rim_slab_b": {
+      "tris": 3200,
+      "size": [
+        4.76,
+        1.03,
+        2.57
+      ]
+    },
+    "rim_stone_a": {
+      "tris": 260,
+      "size": [
+        0.49,
+        0.24,
+        0.39
+      ]
+    },
+    "rim_stone_b": {
+      "tris": 260,
+      "size": [
+        0.76,
+        0.33,
+        0.6
+      ]
+    },
+    "rim_stone_c": {
+      "tris": 260,
+      "size": [
+        0.31,
+        0.15,
+        0.25
+      ]
+    },
+    "rim_stone_d": {
+      "tris": 260,
+      "size": [
+        0.95,
+        0.44,
+        0.77
+      ]
+    },
+    "rim_stone_e": {
+      "tris": 260,
+      "size": [
+        0.52,
+        0.36,
+        0.42
+      ]
+    },
+    "rim_stone_f": {
+      "tris": 260,
+      "size": [
+        0.48,
+        0.21,
+        0.33
+      ]
+    }
+  },
+  "notes": "Rim rock family. Each rock is a node named rim_*; its collision proxy is col_<name> (material 'collider', hide it). Base at y=0 (a little buried below). Shared atlas: basecolor (variation), ORM (AO, roughness, 0), normal."
+}

@@ -1,0 +1,146 @@
+{
+ "name": "kessler_kit",
+ "notes": "Kessler Deep modular kit (area 1). One node per piece (k_<name>), materials k_* are rebuilt in src/world/area1/materials.ts. COLOR_0 = mask (R occlusion, G edge wear, B variation); UV0 in metres.",
+ "pieces": {
+  "k_catwalk_3x2": {
+   "tris": 1576,
+   "seconds": 0.21
+  },
+  "k_rail_2": {
+   "tris": 872,
+   "seconds": 0.01
+  },
+  "k_rail_post": {
+   "tris": 684,
+   "seconds": 0.01
+  },
+  "k_rib": {
+   "tris": 1892,
+   "seconds": 0.03
+  },
+  "k_wallbay": {
+   "tris": 3288,
+   "seconds": 0.05
+  },
+  "k_column_ibeam": {
+   "tris": 1376,
+   "seconds": 0.02
+  },
+  "k_bracket": {
+   "tris": 768,
+   "seconds": 0.01
+  },
+  "k_joist": {
+   "tris": 1188,
+   "seconds": 0.02
+  },
+  "k_truss_6": {
+   "tris": 2592,
+   "seconds": 0.05
+  },
+  "k_pipe_3": {
+   "tris": 1360,
+   "seconds": 0.03
+  },
+  "k_pipe_big_3": {
+   "tris": 2632,
+   "seconds": 0.05
+  },
+  "k_pipe_elbow": {
+   "tris": 1244,
+   "seconds": 0.02
+  },
+  "k_pipe_bracket": {
+   "tris": 876,
+   "seconds": 0.01
+  },
+  "k_valve": {
+   "tris": 2636,
+   "seconds": 0.05
+  },
+  "k_cable_tray_3": {
+   "tris": 2462,
+   "seconds": 0.04
+  },
+  "k_lamp_flood": {
+   "tris": 2360,
+   "seconds": 0.04
+  },
+  "k_lamp_strip": {
+   "tris": 648,
+   "seconds": 0.01
+  },
+  "k_lamp_cage": {
+   "tris": 1046,
+   "seconds": 0.02
+  },
+  "k_beacon": {
+   "tris": 648,
+   "seconds": 0.01
+  },
+  "k_console": {
+   "tris": 3696,
+   "seconds": 0.06
+  },
+  "k_cover_a": {
+   "tris": 5832,
+   "seconds": 0.1
+  },
+  "k_cover_b": {
+   "tris": 6480,
+   "seconds": 0.11
+  },
+  "k_cover_c": {
+   "tris": 5724,
+   "seconds": 0.09
+  },
+  "k_cover_d": {
+   "tris": 5616,
+   "seconds": 0.11
+  },
+  "k_cover_e": {
+   "tris": 4968,
+   "seconds": 0.09
+  },
+  "k_barrel": {
+   "tris": 1036,
+   "seconds": 0.02
+  },
+  "k_door_big": {
+   "tris": 2584,
+   "seconds": 0.05
+  },
+  "k_door_4x4": {
+   "tris": 1916,
+   "seconds": 0.03
+  },
+  "k_door_4x34": {
+   "tris": 1916,
+   "seconds": 0.03
+  },
+  "k_vent_fan": {
+   "tris": 712,
+   "seconds": 0.02
+  },
+  "k_fan_blades": {
+   "tris": 728,
+   "seconds": 0.01
+  },
+  "k_bore_column": {
+   "tris": 15576,
+   "seconds": 0.46
+  },
+  "k_bore_liner": {
+   "tris": 8160,
+   "seconds": 0.12
+  },
+  "k_radial_beam": {
+   "tris": 1296,
+   "seconds": 0.02
+  },
+  "k_swatches": {
+   "tris": 204,
+   "seconds": 0.01
+  }
+ }
+}

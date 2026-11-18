@@ -1,0 +1,117 @@
+{
+  "name": "harrier",
+  "clips": [
+    {
+      "name": "idle",
+      "loop": true,
+      "duration": 4.0,
+      "events": []
+    },
+    {
+      "name": "fire",
+      "loop": false,
+      "duration": 0.1,
+      "events": [
+        {
+          "t": 0.0,
+          "name": "fire"
+        }
+      ],
+      "glow": {
+        "coil_glow": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.016,
+            2.6
+          ],
+          [
+            0.04,
+            1.9
+          ],
+          [
+            0.1,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "equip",
+      "loop": false,
+      "duration": 0.45,
+      "events": [
+        {
+          "t": 0.17,
+          "name": "settle"
+        }
+      ]
+    },
+    {
+      "name": "reload",
+      "loop": false,
+      "duration": 1.75,
+      "events": [
+        {
+          "t": 0.445,
+          "name": "mag_out"
+        },
+        {
+          "t": 1.028,
+          "name": "mag_in"
+        },
+        {
+          "t": 1.29,
+          "name": "rack"
+        }
+      ]
+    },
+    {
+      "name": "inspect",
+      "loop": false,
+      "duration": 3.2,
+      "events": []
+    },
+    {
+      "name": "sprint",
+      "loop": true,
+      "duration": 0.7333,
+      "events": []
+    },
+    {
+      "name": "dash",
+      "loop": false,
+      "duration": 0.3667,
+      "events": []
+    },
+    {
+      "name": "holster",
+      "loop": false,
+      "duration": 0.3,
+      "events": []
+    }
+  ],
+  "sockets": [
+    "socket_muzzle",
+    "socket_eject",
+    "socket_mag"
+  ],
+  "fps": 60,
+  "triangles": 125629,
+  "materials": {
+    "animated": [
+      "coil_glow",
+      "cell_glow",
+      "dash_glow"
+    ],
+    "static": [
+      "harrier",
+      "gauntlet",
+      "reticle_glow",
+      "sight_glass"
+    ]
+  },
+  "notes": "View-model in camera space (camera at origin looking -Z, ~58 deg vertical FOV); one armature 'harrier_rig' with the gauntlet arms (art/_shared/fp_arms.py v2) + gun. Every clip starts and ends on the idle base pose (idle frame 0). fire: 0.10 s, ~2.8 cm rearward + ~1.8 deg climb in the first two frames, vents snap open, back within ~1 mm by 83 ms: restart it on every shot at 12 shots/s (fade ~0.01 s); its 'glow' curve multiplies coil_glow (2.6x peak). idle and sprint loop seamlessly (sprint = one stride, 0.733 s = 44 frames; scale timeScale with run speed). reload events: mag_out (spent cell released and flying off-screen on bone 'cell_spent'), mag_in (heel slap seats the fresh cell), rack (charging handle back). Bones 'cell' and 'cell_spent' are hidden by scale (0.001) when not in use; every clip keys their scale. Emissive materials to drive: coil_glow (shroud coils, muzzle emitter and the heat-sink fins behind the rear-left louvres: heat), cell_glow (charge window: ammo), dash_glow on meshes 'dash_glow_0' (nearer the wrist) and 'dash_glow_1' on the back of the left hand (clone the material per mesh; one segment per dash charge). reticle_glow and sight_glass are alpha-blended. Sockets: socket_muzzle (+Y bone axis out of the muzzle), socket_eject (cell port, axis out of the port), socket_mag (on the cell). Rigid part bones the game may also drive: flap_l, flap_r, trigger, barrel, charging_handle, cell, cell_latch, selector."
+}

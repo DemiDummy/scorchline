@@ -1,0 +1,1269 @@
+{
+ "name": "cinder",
+ "clips": [
+  {
+   "name": "spawn",
+   "loop": false,
+   "duration": 1.4,
+   "events": [
+    {
+     "t": 0.08,
+     "name": "ignite_start"
+    },
+    {
+     "t": 0.3,
+     "name": "claw_hit"
+    },
+    {
+     "t": 0.8,
+     "name": "shake"
+    },
+    {
+     "t": 0.95,
+     "name": "ignite_full"
+    }
+   ],
+   "glow": {
+    "core_glow": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      0.08,
+      0.04
+     ],
+     [
+      0.3,
+      0.35
+     ],
+     [
+      0.56,
+      0.7
+     ],
+     [
+      0.8,
+      1.8
+     ],
+     [
+      0.9,
+      1.3
+     ],
+     [
+      1.1,
+      1.0
+     ],
+     [
+      1.4,
+      1.0
+     ]
+    ],
+    "blade_glow": [
+     [
+      0.0,
+      0.0
+     ],
+     [
+      0.3,
+      0.25
+     ],
+     [
+      0.6,
+      0.6
+     ],
+     [
+      0.82,
+      1.6
+     ],
+     [
+      1.0,
+      1.0
+     ],
+     [
+      1.4,
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "idle",
+   "loop": true,
+   "duration": 3.0,
+   "events": [
+    {
+     "t": 1.08,
+     "name": "flick"
+    },
+    {
+     "t": 2.3,
+     "name": "scrape"
+    }
+   ]
+  },
+  {
+   "name": "run",
+   "loop": true,
+   "duration": 0.6,
+   "events": [
+    {
+     "t": 0.0,
+     "name": "footstep_l"
+    },
+    {
+     "t": 0.3,
+     "name": "footstep_r"
+    }
+   ]
+  },
+  {
+   "name": "leap",
+   "loop": false,
+   "duration": 1.2,
+   "events": [
+    {
+     "t": 0.33,
+     "name": "launch"
+    },
+    {
+     "t": 0.5,
+     "name": "apex"
+    },
+    {
+     "t": 0.7,
+     "name": "land"
+    },
+    {
+     "t": 0.745,
+     "name": "impact"
+    }
+   ],
+   "glow": {
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.22,
+      2.0
+     ],
+     [
+      0.33,
+      2.6
+     ],
+     [
+      0.645,
+      3.2
+     ],
+     [
+      0.745,
+      4.5
+     ],
+     [
+      0.86,
+      2.5
+     ],
+     [
+      1.2,
+      1.0
+     ]
+    ],
+    "core_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.29,
+      1.5
+     ],
+     [
+      0.36,
+      1.8
+     ],
+     [
+      0.745,
+      2.2
+     ],
+     [
+      0.9,
+      1.2
+     ],
+     [
+      1.2,
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "attack_a",
+   "loop": false,
+   "duration": 0.7,
+   "events": [
+    {
+     "t": 0.19,
+     "name": "telegraph"
+    },
+    {
+     "t": 0.2667,
+     "name": "impact"
+    }
+   ],
+   "glow": {
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.12,
+      1.6
+     ],
+     [
+      0.233,
+      2.6
+     ],
+     [
+      0.267,
+      4.0
+     ],
+     [
+      0.36,
+      2.2
+     ],
+     [
+      0.55,
+      1.2
+     ],
+     [
+      0.7,
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "attack_b",
+   "loop": false,
+   "duration": 0.9,
+   "events": [
+    {
+     "t": 0.24,
+     "name": "telegraph"
+    },
+    {
+     "t": 0.365,
+     "name": "impact"
+    }
+   ],
+   "glow": {
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.24,
+      2.4
+     ],
+     [
+      0.31,
+      2.8
+     ],
+     [
+      0.365,
+      4.0
+     ],
+     [
+      0.53,
+      2.0
+     ],
+     [
+      0.75,
+      1.2
+     ],
+     [
+      0.9,
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "hit",
+   "loop": false,
+   "duration": 0.3,
+   "events": [
+    {
+     "t": 0.0,
+     "name": "hit"
+    }
+   ]
+  },
+  {
+   "name": "stagger",
+   "loop": false,
+   "duration": 1.2,
+   "events": [
+    {
+     "t": 0.0,
+     "name": "stagger"
+    },
+    {
+     "t": 0.1,
+     "name": "vulnerable_start"
+    },
+    {
+     "t": 0.4,
+     "name": "blade_scrape"
+    },
+    {
+     "t": 0.95,
+     "name": "vulnerable_end"
+    }
+   ],
+   "glow": {
+    "core_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.05,
+      2.6
+     ],
+     [
+      0.14,
+      0.7
+     ],
+     [
+      0.24,
+      1.5
+     ],
+     [
+      0.34,
+      0.5
+     ],
+     [
+      0.5,
+      0.9
+     ],
+     [
+      0.62,
+      0.55
+     ],
+     [
+      0.8,
+      0.85
+     ],
+     [
+      1.0,
+      1.1
+     ],
+     [
+      1.2,
+      1.0
+     ]
+    ],
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.05,
+      1.8
+     ],
+     [
+      0.2,
+      0.6
+     ],
+     [
+      0.9,
+      0.7
+     ],
+     [
+      1.2,
+      1.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "death_a",
+   "loop": false,
+   "duration": 1.5,
+   "events": [
+    {
+     "t": 0.1,
+     "name": "death"
+    },
+    {
+     "t": 0.4,
+     "name": "gutter_start"
+    },
+    {
+     "t": 0.42,
+     "name": "ground_hit"
+    },
+    {
+     "t": 1.19,
+     "name": "twitch"
+    },
+    {
+     "t": 1.4,
+     "name": "gutter_end"
+    }
+   ],
+   "glow": {
+    "core_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.1,
+      2.4
+     ],
+     [
+      0.18,
+      1.3
+     ],
+     [
+      0.4,
+      1.0
+     ],
+     [
+      0.43,
+      1.6
+     ],
+     [
+      0.6,
+      0.6
+     ],
+     [
+      0.9,
+      0.3
+     ],
+     [
+      1.15,
+      0.12
+     ],
+     [
+      1.21,
+      0.4
+     ],
+     [
+      1.28,
+      0.06
+     ],
+     [
+      1.4,
+      0.0
+     ],
+     [
+      1.5,
+      0.0
+     ]
+    ],
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.1,
+      1.8
+     ],
+     [
+      0.4,
+      0.8
+     ],
+     [
+      0.7,
+      0.3
+     ],
+     [
+      1.0,
+      0.08
+     ],
+     [
+      1.2,
+      0.25
+     ],
+     [
+      1.3,
+      0.0
+     ],
+     [
+      1.5,
+      0.0
+     ]
+    ]
+   }
+  },
+  {
+   "name": "death_b",
+   "loop": false,
+   "duration": 1.3,
+   "events": [
+    {
+     "t": 0.0,
+     "name": "death"
+    },
+    {
+     "t": 0.35,
+     "name": "gutter_start"
+    },
+    {
+     "t": 0.37,
+     "name": "ground_hit"
+    },
+    {
+     "t": 0.53,
+     "name": "ground_hit"
+    },
+    {
+     "t": 1.04,
+     "name": "twitch"
+    },
+    {
+     "t": 1.22,
+     "name": "gutter_end"
+    }
+   ],
+   "glow": {
+    "core_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.04,
+      2.8
+     ],
+     [
+      0.14,
+      1.4
+     ],
+     [
+      0.35,
+      1.0
+     ],
+     [
+      0.38,
+      1.5
+     ],
+     [
+      0.55,
+      0.6
+     ],
+     [
+      0.85,
+      0.25
+     ],
+     [
+      1.02,
+      0.1
+     ],
+     [
+      1.06,
+      0.35
+     ],
+     [
+      1.12,
+      0.05
+     ],
+     [
+      1.22,
+      0.0
+     ],
+     [
+      1.3,
+      0.0
+     ]
+    ],
+    "blade_glow": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.04,
+      1.6
+     ],
+     [
+      0.35,
+      0.7
+     ],
+     [
+      0.7,
+      0.25
+     ],
+     [
+      1.04,
+      0.15
+     ],
+     [
+      1.15,
+      0.0
+     ],
+     [
+      1.3,
+      0.0
+     ]
+    ]
+   }
+  }
+ ],
+ "sockets": [
+  "socket_core",
+  "socket_head",
+  "socket_attack_l",
+  "socket_attack_r"
+ ],
+ "locomotion": {
+  "run": 8.0
+ },
+ "bounds": {
+  "radius": 0.586,
+  "height": 1.229,
+  "extent_radius": 0.925,
+  "blade_reach": 0.975
+ },
+ "materials": {
+  "ceramic": "plates",
+  "sinew": "under-structure",
+  "core_glow": {
+   "emissive_strength": 4.0,
+   "animate": true
+  },
+  "blade_glow": {
+   "emissive_strength": 3.0,
+   "animate": true
+  }
+ },
+ "plates": [
+  {
+   "plate": 0,
+   "name": "dorsal_01",
+   "bone": "dorsal_01",
+   "big": true
+  },
+  {
+   "plate": 1,
+   "name": "dorsal_02",
+   "bone": "dorsal_02",
+   "big": true
+  },
+  {
+   "plate": 2,
+   "name": "dorsal_03",
+   "bone": "dorsal_03",
+   "big": true
+  },
+  {
+   "plate": 3,
+   "name": "dorsal_04",
+   "bone": "dorsal_04",
+   "big": true
+  },
+  {
+   "plate": 4,
+   "name": "dorsal_05",
+   "bone": "dorsal_05",
+   "big": true
+  },
+  {
+   "plate": 5,
+   "name": "dorsal_06",
+   "bone": "dorsal_06",
+   "big": true
+  },
+  {
+   "plate": 6,
+   "name": "dorsal_07",
+   "bone": "dorsal_07",
+   "big": true
+  },
+  {
+   "plate": 7,
+   "name": "dorsal_08",
+   "bone": "dorsal_08",
+   "big": true
+  },
+  {
+   "plate": 8,
+   "name": "rib_1_l",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 9,
+   "name": "rib_1_r",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 10,
+   "name": "rib_2_l",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 11,
+   "name": "rib_2_r",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 12,
+   "name": "rib_3_l",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 13,
+   "name": "rib_3_r",
+   "bone": "spine_02",
+   "big": false
+  },
+  {
+   "plate": 14,
+   "name": "rib_4_l",
+   "bone": "spine_03",
+   "big": false
+  },
+  {
+   "plate": 15,
+   "name": "rib_4_r",
+   "bone": "spine_03",
+   "big": false
+  },
+  {
+   "plate": 16,
+   "name": "rib_5_l",
+   "bone": "spine_03",
+   "big": false
+  },
+  {
+   "plate": 17,
+   "name": "rib_5_r",
+   "bone": "spine_03",
+   "big": false
+  },
+  {
+   "plate": 18,
+   "name": "sternum",
+   "bone": "spine_03",
+   "big": false
+  },
+  {
+   "plate": 19,
+   "name": "hip_l",
+   "bone": "pelvis",
+   "big": true
+  },
+  {
+   "plate": 20,
+   "name": "hip_r",
+   "bone": "pelvis",
+   "big": true
+  },
+  {
+   "plate": 21,
+   "name": "neck_1",
+   "bone": "neck_01",
+   "big": false
+  },
+  {
+   "plate": 22,
+   "name": "neck_2",
+   "bone": "neck_02",
+   "big": false
+  },
+  {
+   "plate": 23,
+   "name": "head_l",
+   "bone": "head",
+   "big": true
+  },
+  {
+   "plate": 24,
+   "name": "head_r",
+   "bone": "head",
+   "big": true
+  },
+  {
+   "plate": 25,
+   "name": "jaw",
+   "bone": "head",
+   "big": false
+  },
+  {
+   "plate": 26,
+   "name": "tail_1",
+   "bone": "tail_01",
+   "big": false
+  },
+  {
+   "plate": 27,
+   "name": "tail_2",
+   "bone": "tail_01",
+   "big": false
+  },
+  {
+   "plate": 28,
+   "name": "tail_3",
+   "bone": "tail_02",
+   "big": false
+  },
+  {
+   "plate": 29,
+   "name": "tail_4",
+   "bone": "tail_02",
+   "big": false
+  },
+  {
+   "plate": 30,
+   "name": "tail_5",
+   "bone": "tail_03",
+   "big": false
+  },
+  {
+   "plate": 31,
+   "name": "thigh_outer_l_1",
+   "bone": "thigh_l",
+   "big": true
+  },
+  {
+   "plate": 32,
+   "name": "thigh_outer_l_2",
+   "bone": "thigh_l",
+   "big": false
+  },
+  {
+   "plate": 33,
+   "name": "thigh_outer_l_3",
+   "bone": "thigh_l",
+   "big": false
+  },
+  {
+   "plate": 34,
+   "name": "thigh_front_l_1",
+   "bone": "thigh_l",
+   "big": false
+  },
+  {
+   "plate": 35,
+   "name": "thigh_inner_l_1",
+   "bone": "thigh_l",
+   "big": false
+  },
+  {
+   "plate": 36,
+   "name": "thigh_inner_l_2",
+   "bone": "thigh_l",
+   "big": false
+  },
+  {
+   "plate": 37,
+   "name": "knee_l_1",
+   "bone": "shin_l",
+   "big": false
+  },
+  {
+   "plate": 38,
+   "name": "shin_lat_l_1",
+   "bone": "shin_l",
+   "big": true
+  },
+  {
+   "plate": 39,
+   "name": "shin_lat_l_2",
+   "bone": "shin_l",
+   "big": false
+  },
+  {
+   "plate": 40,
+   "name": "shin_lat_l_3",
+   "bone": "shin_l",
+   "big": false
+  },
+  {
+   "plate": 41,
+   "name": "shin_med_l_1",
+   "bone": "shin_l",
+   "big": false
+  },
+  {
+   "plate": 42,
+   "name": "shin_med_l_2",
+   "bone": "shin_l",
+   "big": false
+  },
+  {
+   "plate": 43,
+   "name": "spur_l",
+   "bone": "meta_l",
+   "big": false
+  },
+  {
+   "plate": 44,
+   "name": "meta_l_1",
+   "bone": "meta_l",
+   "big": false
+  },
+  {
+   "plate": 45,
+   "name": "meta_l_2",
+   "bone": "meta_l",
+   "big": false
+  },
+  {
+   "plate": 46,
+   "name": "sickle_l",
+   "bone": "meta_l",
+   "big": false
+  },
+  {
+   "plate": 47,
+   "name": "dewclaw_l",
+   "bone": "meta_l",
+   "big": false
+  },
+  {
+   "plate": 48,
+   "name": "toe_1_l_1",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 49,
+   "name": "toe_1_l_2",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 50,
+   "name": "claw_1_l",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 51,
+   "name": "toe_2_l_1",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 52,
+   "name": "toe_2_l_2",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 53,
+   "name": "claw_2_l",
+   "bone": "toe_l",
+   "big": false
+  },
+  {
+   "plate": 54,
+   "name": "pauldron_l_1",
+   "bone": "clavicle_l",
+   "big": true
+  },
+  {
+   "plate": 55,
+   "name": "upperarm_l_1",
+   "bone": "upperarm_l",
+   "big": false
+  },
+  {
+   "plate": 56,
+   "name": "upperarm_l_2",
+   "bone": "upperarm_l",
+   "big": false
+  },
+  {
+   "plate": 57,
+   "name": "elbow_l",
+   "bone": "forearm_l",
+   "big": false
+  },
+  {
+   "plate": 58,
+   "name": "forearm_lat_l_1",
+   "bone": "forearm_l",
+   "big": true
+  },
+  {
+   "plate": 59,
+   "name": "forearm_lat_l_2",
+   "bone": "forearm_l",
+   "big": false
+  },
+  {
+   "plate": 60,
+   "name": "forearm_lat_l_3",
+   "bone": "forearm_l",
+   "big": false
+  },
+  {
+   "plate": 61,
+   "name": "forearm_med_l_1",
+   "bone": "forearm_l",
+   "big": false
+  },
+  {
+   "plate": 62,
+   "name": "forearm_med_l_2",
+   "bone": "forearm_l",
+   "big": false
+  },
+  {
+   "plate": 63,
+   "name": "wrist_l",
+   "bone": "wrist_l",
+   "big": false
+  },
+  {
+   "plate": 64,
+   "name": "blade_l",
+   "bone": "blade_l",
+   "big": true
+  },
+  {
+   "plate": 65,
+   "name": "fan_1_l",
+   "bone": "fan_l",
+   "big": false
+  },
+  {
+   "plate": 66,
+   "name": "fan_2_l",
+   "bone": "fan_l",
+   "big": false
+  },
+  {
+   "plate": 67,
+   "name": "thigh_outer_r_1",
+   "bone": "thigh_r",
+   "big": true
+  },
+  {
+   "plate": 68,
+   "name": "thigh_outer_r_2",
+   "bone": "thigh_r",
+   "big": false
+  },
+  {
+   "plate": 69,
+   "name": "thigh_outer_r_3",
+   "bone": "thigh_r",
+   "big": false
+  },
+  {
+   "plate": 70,
+   "name": "thigh_front_r_1",
+   "bone": "thigh_r",
+   "big": false
+  },
+  {
+   "plate": 71,
+   "name": "thigh_inner_r_1",
+   "bone": "thigh_r",
+   "big": false
+  },
+  {
+   "plate": 72,
+   "name": "thigh_inner_r_2",
+   "bone": "thigh_r",
+   "big": false
+  },
+  {
+   "plate": 73,
+   "name": "knee_r_1",
+   "bone": "shin_r",
+   "big": false
+  },
+  {
+   "plate": 74,
+   "name": "shin_lat_r_1",
+   "bone": "shin_r",
+   "big": true
+  },
+  {
+   "plate": 75,
+   "name": "shin_lat_r_2",
+   "bone": "shin_r",
+   "big": false
+  },
+  {
+   "plate": 76,
+   "name": "shin_lat_r_3",
+   "bone": "shin_r",
+   "big": false
+  },
+  {
+   "plate": 77,
+   "name": "shin_med_r_1",
+   "bone": "shin_r",
+   "big": false
+  },
+  {
+   "plate": 78,
+   "name": "shin_med_r_2",
+   "bone": "shin_r",
+   "big": false
+  },
+  {
+   "plate": 79,
+   "name": "spur_r",
+   "bone": "meta_r",
+   "big": false
+  },
+  {
+   "plate": 80,
+   "name": "meta_r_1",
+   "bone": "meta_r",
+   "big": false
+  },
+  {
+   "plate": 81,
+   "name": "meta_r_2",
+   "bone": "meta_r",
+   "big": false
+  },
+  {
+   "plate": 82,
+   "name": "sickle_r",
+   "bone": "meta_r",
+   "big": false
+  },
+  {
+   "plate": 83,
+   "name": "dewclaw_r",
+   "bone": "meta_r",
+   "big": false
+  },
+  {
+   "plate": 84,
+   "name": "toe_1_r_1",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 85,
+   "name": "toe_1_r_2",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 86,
+   "name": "claw_1_r",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 87,
+   "name": "toe_2_r_1",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 88,
+   "name": "toe_2_r_2",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 89,
+   "name": "claw_2_r",
+   "bone": "toe_r",
+   "big": false
+  },
+  {
+   "plate": 90,
+   "name": "pauldron_r_1",
+   "bone": "clavicle_r",
+   "big": true
+  },
+  {
+   "plate": 91,
+   "name": "upperarm_r_1",
+   "bone": "upperarm_r",
+   "big": false
+  },
+  {
+   "plate": 92,
+   "name": "upperarm_r_2",
+   "bone": "upperarm_r",
+   "big": false
+  },
+  {
+   "plate": 93,
+   "name": "elbow_r",
+   "bone": "forearm_r",
+   "big": false
+  },
+  {
+   "plate": 94,
+   "name": "forearm_lat_r_1",
+   "bone": "forearm_r",
+   "big": true
+  },
+  {
+   "plate": 95,
+   "name": "forearm_lat_r_2",
+   "bone": "forearm_r",
+   "big": false
+  },
+  {
+   "plate": 96,
+   "name": "forearm_lat_r_3",
+   "bone": "forearm_r",
+   "big": false
+  },
+  {
+   "plate": 97,
+   "name": "forearm_med_r_1",
+   "bone": "forearm_r",
+   "big": false
+  },
+  {
+   "plate": 98,
+   "name": "forearm_med_r_2",
+   "bone": "forearm_r",
+   "big": false
+  },
+  {
+   "plate": 99,
+   "name": "wrist_r",
+   "bone": "wrist_r",
+   "big": false
+  },
+  {
+   "plate": 100,
+   "name": "blade_r",
+   "bone": "blade_r",
+   "big": true
+  },
+  {
+   "plate": 101,
+   "name": "fan_1_r",
+   "bone": "fan_r",
+   "big": false
+  },
+  {
+   "plate": 102,
+   "name": "fan_2_r",
+   "bone": "fan_r",
+   "big": false
+  }
+ ],
+ "notes": "Faces +Z, origin between the feet. Idle stance (hunched): 1.23 m to the top of the back/fans; bounds.radius 0.59 m = body core (pelvis/spine/legs) for collision; head-to-tail extent (bounds.extent_radius) 0.93 m and blade tips (bounds.blade_reach) 0.97 m from the origin (culling / melee range). Units metres. All clips 60 fps, root bone static in every clip (all motion is on pelvis and below). run: in place, ground speed 8.0 m/s (feet planted at exactly 8 m/s during contact), 36-frame loop (0.600 s), footstep_l at 0.000 s, footstep_r at 0.300 s, both feet off the ground between contacts. idle: 3 s loop with stepped head darts and weight shifts; events flick (right blade) and scrape (claw); its frame 0 is the reference pose every one-shot starts and ends on (spawn ends on it, deaths start on it). leap: fully in place incl. height - the clip only crouches/extends/tucks; between 'launch' (0.330 s) and 'land' (0.700 s) the game should move the root along its ballistic arc so the root is back on the ground at 'land'; 'impact' (0.745 s) = both blades hit the ground in front. attack_a: right-blade arcing slash with a lunge step, telegraph 0.190 s, impact 0.267 s (the tip passes a chest-high point ~1.3 m in front), body returns to its spot (no root motion). attack_b: two-blade horizontal scissor from a wide overhead spread, telegraph 0.240 s, impact 0.365 s. hit: additive flinch authored as deltas on idle frame 0 - use THREE.AnimationUtils.makeClipAdditive(hit, 0); only spine/neck/head/arm/blade/fan/dorsal tracks move, pelvis/legs/tail tracks are constant (zero delta), so it layers over run or idle. stagger: vulnerable window 0.10-0.95 s (events vulnerable_start/_end), stumbles back and steps back to its spot (ends where it started). death_a: forward collapse, pelvis ends 1.15 m ahead of the origin lying prone; death_b: blown back, lands on its back and rolls onto its side, pelvis ends 1.62 m behind the origin. Deaths do not move the root; keep the corpse at the death position. Glow: every clip that changes heat carries a meta 'glow' curve per material (core_glow, blade_glow; k multiplies the authored emissive) - these are authoritative (spawn ignition, attack flares, stagger flicker, death gutter to 0). The events gutter_start/gutter_end (deaths) and ignite_start/ignite_full (spawn) remain as FX cues. Materials: ceramic (plates), sinew (under-structure), core_glow (core, seams, inner tubes, head slit) and blade_glow (heat edge). The *_glow emissive maps are greyscale HEAT MASKS for the kiln molten shader (luminance = heat); emissive strength 4.0 / 3.0 in KHR_materials_emissive_strength. Sockets: socket_core (chest core, weak point), socket_head, socket_attack_l/_r (blade tips). Debris: every ceramic plate is a separate loose island rigidly weighted to one bone; vertex attribute _plate (glTF _PLATE, three.js geometry.attributes._plate) holds the plate index listed in 'plates' (indices are regenerated on every model build: always read them from this file). Big plates (good debris) ride on: blade_l, blade_r, clavicle_l, clavicle_r, dorsal_01, dorsal_02, dorsal_03, dorsal_04, dorsal_05, dorsal_06, dorsal_07, dorsal_08, forearm_l, forearm_r, head, pelvis, shin_l, shin_r, thigh_l, thigh_r. Event times per clip: spawn: ignite_start 0.080, claw_hit 0.300, shake 0.800, ignite_full 0.950; idle: flick 1.080, scrape 2.300; run: footstep_l 0.000, footstep_r 0.300; leap: launch 0.330, apex 0.500, land 0.700, impact 0.745; attack_a: telegraph 0.190, impact 0.267; attack_b: telegraph 0.240, impact 0.365; hit: hit 0.000; stagger: stagger 0.000, vulnerable_start 0.100, blade_scrape 0.400, vulnerable_end 0.950; death_a: death 0.100, gutter_start 0.400, ground_hit 0.420, twitch 1.190, gutter_end 1.400; death_b: death 0.000, gutter_start 0.350, ground_hit 0.370, ground_hit 0.530, twitch 1.040, gutter_end 1.220."
+}
