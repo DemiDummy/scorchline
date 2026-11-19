@@ -17,15 +17,15 @@
           "name": "fire"
         },
         {
-          "t": 0.37,
+          "t": 0.45,
           "name": "lever_open"
         },
         {
-          "t": 0.5,
+          "t": 0.58,
           "name": "drum_index"
         },
         {
-          "t": 0.5,
+          "t": 0.58,
           "name": "lever_close"
         }
       ]
@@ -40,15 +40,15 @@
           "name": "fire"
         },
         {
-          "t": 0.37,
+          "t": 0.45,
           "name": "lever_open"
         },
         {
-          "t": 0.5,
+          "t": 0.58,
           "name": "drum_index"
         },
         {
-          "t": 0.5,
+          "t": 0.58,
           "name": "lever_close"
         }
       ]
@@ -177,9 +177,9 @@
     "dash_glow"
   ],
   "triangles": {
-    "gun": 73616,
+    "gun": 73680,
     "arms": 75562,
-    "total": 149178
+    "total": 149242
   },
   "textures": "two 2048x2048 gun atlases (A: halberd_body/muzzle_glow/halberd_lights, B: halberd_mech/cell*_glow), each baseColor (JPEG), normal (PNG), ORM (JPEG), emissive (JPEG); arms use the shared gauntlet set",
   "notes": "View-model in camera space (glTF -Z forward, +Y up, metres); arms + gun on ONE armature (root at identity). Bones: gun > trigger, lever (fore-lever: pivots at the receiver front, its vertical ceramic grip is where the left hand lives), pawl + lever_link (the visible linkage the lever drives), drum_latch, vent_l, vent_r, crane > drum > ejector, cell_1..cell_4; clip (4-cell loader, child of root, parked behind the camera outside the reload); sockets socket_muzzle (gun, brake mouth), socket_eject (crane, drum rear: spent cells leave here), socket_mag (drum centre). MATERIALS: halberd_body (atlas A: receiver, grip, stock, shroud, brake, rib), halberd_mech (atlas B: lever, linkage, crane, drum, cells, loader), halberd_lights (static cyan sight dots / sight line / front bead), muzzle_glow, cell1_glow..cell4_glow, plus the shared gauntlet materials and dash_glow. CELL GLOW / AMMO: materials cell1_glow..cell4_glow (glob 'cell*_glow') are the 4 cell end caps + core windows AND the 4 ammo LEDs on the receiver. Rule: cell k glows iff k <= ammo (ammo 0..4). In the fire clip the drum is authored from +90 deg back to 0 (it jumps one chamber at t=0, hidden by the kick; the glow change at the same instant makes it read as the top cell going dark), so update the glow to the NEW ammo count exactly at the 'fire' event (t=0) and start 'fire' without a crossfade (oneShot fade 0, as weapons.ts already does); every clip ends with the drum at 0. Reload: at 'eject' the four spent cells tumble out through the lower left of the frame; they read best if their glow is lifted to ~0.35 at 'eject' and decays to the spent value over ~0.3 s (residual charge). At 'cells_fresh' (the new cells are below the frame, riding in the loader) set all four live (ammo=4). Live glow 1.0 = as exported (the emissive map is saturated cyan, no white core). MUZZLE: material muzzle_glow (brake core seen through the ports + bore liner); its emissive map is the full-heat pattern in cyan-white (player palette, no orange). Drive emissiveIntensity with heat: 0 cold, ramp to 1-3 on fire, decay over ~1.5 s. Exported at 1.0. halberd_body and halberd_mech have no emissive. LOOPS: idle (4.0 s) and sprint (0.7 s) loop seamlessly (first = last frame). One-shots start/end on idle frame 0 except fire (starts with the trigger pulled and the kick), holster (ends off-screen) and equip (starts off-screen). The procedural recoil/sway layer should be applied to the armature root (or a parent object), not the gun bone. ADS: clip ads_fire = fire with the kick straight back and the lever worked with almost no roll/yaw (same events and times); play it instead of fire while aimed. Extra events beyond the brief: equip 'grab', reload 'cells_fresh', 'clip_toss', 'lever_open', inspect 'drum_spin'. Camera FOV the clips were framed for: 58 deg vertical, 16:9 (VIEWMODEL.fov). Idle framing: gun low right, yawed ~33 deg so the muzzle points toward the screen centre and the drum's left side and rear face (glowing cell ends, chamber numbers) face the camera; left gauntlet on the fore-lever grip under the shroud, right gauntlet on the pistol grip at the bottom-right edge. Avoid a large downward procedural rest offset. The 'clip' bone (and the spent cells after they leave the screen) is parked behind and below the camera whenever not in use; parts move far from the bind pose, so keep frustumCulled=false on the view-model meshes."
