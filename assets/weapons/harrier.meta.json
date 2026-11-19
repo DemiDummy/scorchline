@@ -10,7 +10,7 @@
     {
       "name": "fire",
       "loop": false,
-      "duration": 0.1,
+      "duration": 0.3,
       "events": [
         {
           "t": 0.0,
@@ -33,6 +33,45 @@
           ],
           [
             0.1,
+            1.0
+          ],
+          [
+            0.3,
+            1.0
+          ]
+        ]
+      }
+    },
+    {
+      "name": "ads_fire",
+      "loop": false,
+      "duration": 0.3,
+      "events": [
+        {
+          "t": 0.0,
+          "name": "fire"
+        }
+      ],
+      "glow": {
+        "coil_glow": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            0.016,
+            2.2
+          ],
+          [
+            0.04,
+            1.6
+          ],
+          [
+            0.12,
+            1.0
+          ],
+          [
+            0.3,
             1.0
           ]
         ]
@@ -99,7 +138,7 @@
     "socket_mag"
   ],
   "fps": 60,
-  "triangles": 125629,
+  "triangles": 123773,
   "materials": {
     "animated": [
       "coil_glow",
@@ -113,5 +152,5 @@
       "sight_glass"
     ]
   },
-  "notes": "View-model in camera space (camera at origin looking -Z, ~58 deg vertical FOV); one armature 'harrier_rig' with the gauntlet arms (art/_shared/fp_arms.py v2) + gun. Every clip starts and ends on the idle base pose (idle frame 0). fire: 0.10 s, ~2.8 cm rearward + ~1.8 deg climb in the first two frames, vents snap open, back within ~1 mm by 83 ms: restart it on every shot at 12 shots/s (fade ~0.01 s); its 'glow' curve multiplies coil_glow (2.6x peak). idle and sprint loop seamlessly (sprint = one stride, 0.733 s = 44 frames; scale timeScale with run speed). reload events: mag_out (spent cell released and flying off-screen on bone 'cell_spent'), mag_in (heel slap seats the fresh cell), rack (charging handle back). Bones 'cell' and 'cell_spent' are hidden by scale (0.001) when not in use; every clip keys their scale. Emissive materials to drive: coil_glow (shroud coils, muzzle emitter and the heat-sink fins behind the rear-left louvres: heat), cell_glow (charge window: ammo), dash_glow on meshes 'dash_glow_0' (nearer the wrist) and 'dash_glow_1' on the back of the left hand (clone the material per mesh; one segment per dash charge). reticle_glow and sight_glass are alpha-blended. Sockets: socket_muzzle (+Y bone axis out of the muzzle), socket_eject (cell port, axis out of the port), socket_mag (on the cell). Rigid part bones the game may also drive: flap_l, flap_r, trigger, barrel, charging_handle, cell, cell_latch, selector."
+  "notes": "View-model in camera space (camera at origin looking -Z, ~58 deg vertical FOV); one armature 'harrier_rig' with the gauntlet arms (art/_shared/fp_arms.py v3) + gun. Every clip starts and ends on the idle base pose (idle frame 0). Hold: right index INDEXED along the frame at idle (on the trigger only in fire), support hand on the handguard. fire: 0.30 s; the kick (~2.8 cm rearward + ~1.8 deg climb in the first two frames, vents snap open) is back within ~1 mm by 83 ms; the trigger finger stays on the trigger until 0.18 s and returns to the frame by 0.30 s: restart it on every shot at 12 shots/s (fade ~0.01 s) so the finger never leaves the trigger mid-burst; its 'glow' curve multiplies coil_glow (2.6x peak). ads_fire: 0.30 s aimed shot, a STRAIGHT-BACK kick (~1.2 cm, 0.35 deg, no roll/yaw) back on the base pose by 0.12 s; play it instead of fire while aimed. Holo sight (loop 4): open window (inner ~40 x 36 mm) with a thin frame, the emitter is a low wedge entirely below the window, no rear housing, no rail teeth behind the sight; the reticle quad 'sight_reticle' (material reticle_glow) sits at the window centre, so the ADS raise/shrink workaround is no longer needed. equip: both hands on the gun from ~0.05 s (start it 0.05 s in). idle and sprint loop seamlessly (sprint = one stride, 0.733 s = 44 frames; scale timeScale with run speed). reload events: mag_out (spent cell released and flying off-screen on bone 'cell_spent'), mag_in (heel slap seats the fresh cell), rack (charging handle back). Bones 'cell' and 'cell_spent' are hidden by scale (0.001) when not in use; every clip keys their scale. Emissive materials to drive: coil_glow (shroud coils, muzzle emitter and the heat-sink fins behind the rear-left louvres: heat), cell_glow (charge window: ammo), dash_glow on meshes 'dash_glow_0' (nearer the wrist) and 'dash_glow_1' on the back of the left hand (clone the material per mesh; one segment per dash charge). reticle_glow and sight_glass are alpha-blended. Sockets: socket_muzzle (+Y bone axis out of the muzzle), socket_eject (cell port, axis out of the port), socket_mag (on the cell). Rigid part bones the game may also drive: flap_l, flap_r, trigger, barrel, charging_handle, cell, cell_latch, selector."
 }

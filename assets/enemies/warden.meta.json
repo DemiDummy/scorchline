@@ -629,487 +629,487 @@
     "core_glow": [
      [
       0.0,
-      0.9
+      0.72
      ],
      [
       0.0333,
-      0.9
+      0.721
      ],
      [
       0.0667,
-      0.903
+      0.727
      ],
      [
       0.1,
-      0.91
+      0.742
      ],
      [
       0.1333,
-      0.924
+      0.77
      ],
      [
       0.1667,
-      0.944
+      0.814
      ],
      [
       0.2,
-      0.971
+      0.872
      ],
      [
       0.2333,
-      1.005
+      0.945
      ],
      [
       0.2667,
-      1.044
+      1.028
      ],
      [
       0.3,
-      1.085
+      1.117
      ],
      [
       0.3333,
-      1.127
+      1.207
      ],
      [
       0.3667,
-      1.167
+      1.292
      ],
      [
       0.4,
-      1.201
+      1.365
      ],
      [
       0.4333,
-      1.228
+      1.422
      ],
      [
       0.4667,
-      1.244
+      1.458
      ],
      [
       0.5,
-      1.25
+      1.47
      ],
      [
       0.5333,
-      1.244
+      1.458
      ],
      [
       0.5667,
-      1.228
+      1.422
      ],
      [
       0.6,
-      1.201
+      1.365
      ],
      [
       0.6333,
-      1.167
+      1.292
      ],
      [
       0.6667,
-      1.127
+      1.207
      ],
      [
       0.7,
-      1.085
+      1.117
      ],
      [
       0.7333,
-      1.044
+      1.028
      ],
      [
       0.7667,
-      1.005
+      0.945
      ],
      [
       0.8,
-      0.971
+      0.872
      ],
      [
       0.8333,
-      0.944
+      0.814
      ],
      [
       0.8667,
-      0.924
+      0.77
      ],
      [
       0.9,
-      0.91
+      0.742
      ],
      [
       0.9333,
-      0.903
+      0.727
      ],
      [
       0.9667,
-      0.9
+      0.721
      ],
      [
       1.0,
-      0.9
+      0.72
      ],
      [
       1.0333,
-      0.9
+      0.72
      ],
      [
       1.0667,
-      0.9
+      0.72
      ],
      [
       1.1,
-      0.9
+      0.72
      ],
      [
       1.1333,
-      0.9
+      0.72
      ],
      [
       1.1667,
-      0.9
+      0.72
      ],
      [
       1.2,
-      0.9
+      0.72
      ],
      [
       1.2333,
-      0.9
+      0.72
      ],
      [
       1.2667,
-      0.9
+      0.72
      ],
      [
       1.3,
-      0.9
+      0.72
      ],
      [
       1.3333,
-      0.9
+      0.72
      ],
      [
       1.3667,
-      0.9
+      0.72
      ],
      [
       1.4,
-      0.9
+      0.72
      ],
      [
       1.4333,
-      0.9
+      0.72
      ],
      [
       1.4667,
-      0.9
+      0.72
      ],
      [
       1.5,
-      0.9
+      0.72
      ],
      [
       1.5333,
-      0.9
+      0.72
      ],
      [
       1.5667,
-      0.9
+      0.72
      ],
      [
       1.6,
-      0.9
+      0.72
      ],
      [
       1.6333,
-      0.9
+      0.72
      ],
      [
       1.6667,
-      0.9
+      0.72
      ],
      [
       1.7,
-      0.9
+      0.72
      ],
      [
       1.7333,
-      0.9
+      0.72
      ],
      [
       1.7667,
-      0.9
+      0.72
      ],
      [
       1.8,
-      0.9
+      0.72
      ],
      [
       1.8333,
-      0.9
+      0.72
      ],
      [
       1.8667,
-      0.9
+      0.72
      ],
      [
       1.9,
-      0.9
+      0.72
      ],
      [
       1.9333,
-      0.9
+      0.72
      ],
      [
       1.9667,
-      0.9
+      0.72
      ],
      [
       2.0,
-      0.9
+      0.72
      ],
      [
       2.0333,
-      0.9
+      0.721
      ],
      [
       2.0667,
-      0.903
+      0.727
      ],
      [
       2.1,
-      0.91
+      0.742
      ],
      [
       2.1333,
-      0.924
+      0.77
      ],
      [
       2.1667,
-      0.944
+      0.814
      ],
      [
       2.2,
-      0.971
+      0.872
      ],
      [
       2.2333,
-      1.005
+      0.945
      ],
      [
       2.2667,
-      1.044
+      1.028
      ],
      [
       2.3,
-      1.085
+      1.117
      ],
      [
       2.3333,
-      1.127
+      1.207
      ],
      [
       2.3667,
-      1.167
+      1.292
      ],
      [
       2.4,
-      1.201
+      1.365
      ],
      [
       2.4333,
-      1.228
+      1.422
      ],
      [
       2.4667,
-      1.244
+      1.458
      ],
      [
       2.5,
-      1.25
+      1.47
      ],
      [
       2.5333,
-      1.244
+      1.458
      ],
      [
       2.5667,
-      1.228
+      1.422
      ],
      [
       2.6,
-      1.201
+      1.365
      ],
      [
       2.6333,
-      1.167
+      1.292
      ],
      [
       2.6667,
-      1.127
+      1.207
      ],
      [
       2.7,
-      1.085
+      1.117
      ],
      [
       2.7333,
-      1.044
+      1.028
      ],
      [
       2.7667,
-      1.005
+      0.945
      ],
      [
       2.8,
-      0.971
+      0.872
      ],
      [
       2.8333,
-      0.944
+      0.814
      ],
      [
       2.8667,
-      0.924
+      0.77
      ],
      [
       2.9,
-      0.91
+      0.742
      ],
      [
       2.9333,
-      0.903
+      0.727
      ],
      [
       2.9667,
-      0.9
+      0.721
      ],
      [
       3.0,
-      0.9
+      0.72
      ],
      [
       3.0333,
-      0.9
+      0.72
      ],
      [
       3.0667,
-      0.9
+      0.72
      ],
      [
       3.1,
-      0.9
+      0.72
      ],
      [
       3.1333,
-      0.9
+      0.72
      ],
      [
       3.1667,
-      0.9
+      0.72
      ],
      [
       3.2,
-      0.9
+      0.72
      ],
      [
       3.2333,
-      0.9
+      0.72
      ],
      [
       3.2667,
-      0.9
+      0.72
      ],
      [
       3.3,
-      0.9
+      0.72
      ],
      [
       3.3333,
-      0.9
+      0.72
      ],
      [
       3.3667,
-      0.9
+      0.72
      ],
      [
       3.4,
-      0.9
+      0.72
      ],
      [
       3.4333,
-      0.9
+      0.72
      ],
      [
       3.4667,
-      0.9
+      0.72
      ],
      [
       3.5,
-      0.9
+      0.72
      ],
      [
       3.5333,
-      0.9
+      0.72
      ],
      [
       3.5667,
-      0.9
+      0.72
      ],
      [
       3.6,
-      0.9
+      0.72
      ],
      [
       3.6333,
-      0.9
+      0.72
      ],
      [
       3.6667,
-      0.9
+      0.72
      ],
      [
       3.7,
-      0.9
+      0.72
      ],
      [
       3.7333,
-      0.9
+      0.72
      ],
      [
       3.7667,
-      0.9
+      0.72
      ],
      [
       3.8,
-      0.9
+      0.72
      ],
      [
       3.8333,
-      0.9
+      0.72
      ],
      [
       3.8667,
-      0.9
+      0.72
      ],
      [
       3.9,
-      0.9
+      0.72
      ],
      [
       3.9333,
-      0.9
+      0.72
      ],
      [
       3.9667,
-      0.9
+      0.72
      ],
      [
       4.0,
-      0.9
+      0.72
      ]
     ],
     "seam_glow": [
@@ -4343,19 +4343,19 @@
      ],
      [
       0.9667,
-      0.158
+      0.157
      ],
      [
       1.0,
-      0.341
+      0.337
      ],
      [
       1.0333,
-      0.335
+      0.339
      ],
      [
       1.0667,
-      0.156
+      0.157
      ],
      [
       1.1,
@@ -4905,8 +4905,8 @@
   "move": 5.0
  },
  "bounds": {
-  "radius": 1.702,
-  "height": 3.413
+  "radius": 1.741,
+  "height": 3.55
  },
  "collision": {
   "note": "torso capsule for hit detection, in metres above the root; core_radius = the glowing core sphere (socket_core); petal_radius = a capsule along each petal (petal_k_02 -> petal_k_tip) covering the plate width",
@@ -4914,7 +4914,7 @@
   "bottom": 1.12,
   "top": 2.62,
   "core_radius": 0.19,
-  "petal_radius": 0.18
+  "petal_radius": 0.15
  },
  "hover_height": 1.84,
  "emissive_strength": {
@@ -4938,5 +4938,5 @@
   "plate_skirt_b",
   "plate_skirt_r"
  ],
- "notes": "LOOP 2 (v3) BONE RENAMES: arm_{l,r,c}_01..05 -> petal_{l,r,c}_01..05, arm_{k}_tip -> petal_{k}_tip; cable_* -> tendril_{a,b,c}_01..03; plate_cowl_l/r -> plate_hood_fl/fr/l/r/b (five hood shards). Unchanged: root, body, chest, core, neck, head, ring, spine_01/02, tail_01..06, plate_mantle_l/r, plate_back, cage_l/r, plate_skirt_f/l/b/r, every socket name, clip names, event names, hover height, glow-curve format. Origin = root bone on the ground under the Warden; it faces +Z (glTF). Root never moves in any clip. Hover: the body bone sits at 1.84 m; all hover bob/drift is inside the clips relative to root. Petals (the three arms): petal_l = front-left hub, petal_r = front-right hub, petal_c = back hub on the ring. Each is five overlapping curved plates (concave inner face, glowing seams) plus an emitter tip. At rest they stand as a crest (c) and two wings (l/r); spawn opens them from a closed bud one at a time; in the aim pose l and r reach forward as a claw and c arches over the hood like a stinger. socket_attack_l/r/c are the tip ends. socket_muzzle (child of chest, ~1.35 m in front of the core) is where the converged volley starts; its local +Y (bone direction) is the firing direction. In the charge end pose all three tips POINT at it (IK solved, baked to FK; aim lines pass within ~5 cm): l and r tips sit ~0.4 m behind/beside it, c arches over the hood and aims down at it from ~1.5 m. Spawn bolts at socket_muzzle (flashes at the tips) and orient them toward the target. socket_core is the weak point (core centre). Put an orange point light there (~3-4 m range) and drive it with the core_glow curve; socket_head is inside the hood (faint ember light optional). Clip chaining: hover_idle frame 0 is the base pose. charge/hit/stagger/death start on it; charge ends on the aim pose and fire starts from that exact pose; spawn, fire and stagger end on hover_idle frame 0. move: in place, authored for ~5 m/s forward travel (lean, arms swept back, tail streaming). Blend it in by speed and bank the root (roll toward the strafe direction) for strafing. hit is additive-ready: frame 0 equals hover_idle frame 0, only chest/neck/head/ring/petals/plates/core/cage move (root, body, spine, tail and tendril tracks are constant). Use THREE.AnimationUtils.makeClipAdditive(hit, 0) and play it with AdditiveAnimationBlendMode on top of whatever is running. stagger is the vulnerable window: events vulnerable_start / vulnerable_end; the core flickers (see glow curve). death: the body falls 1.52 m to the ground inside the clip (relative to root; do not apply gravity to the root). Event ground_hit is the impact (camera shake, dust, plate chunks). The petals, tendrils and tail are simulated (ragdoll-like) and settle on the ground plane at y=0; on uneven ground keep the root on the floor below. Glow: materials core_glow, seam_glow and tip_glow are the animated emissives. Their emissive maps are HEAT MASKS (luminance = heat, white = hottest) for the shared molten shader; emissiveFactor carries the tint. Each clip carries `glow` curves ([time, multiplier] at 30 Hz) per material: multiply the material's base emissiveIntensity (see emissive_strength, exported via KHR_materials_emissive_strength) by the curve value. 1.0 = normal idle glow. Every mesh vertex carries a float `_plate` attribute (one id per plate / part) for the ceramic shader's per-plate value and glossy-fired vs matte pick. Breakable plates: big plates are separate mesh islands rigidly weighted to single bones (plate_bones list): plate_hood_fl/fr/l/r/b (the five hood shards), plate_mantle_l/r (front shoulder yoke plates), plate_back (back plate), cage_l/cage_r (the rib-cage bars round the core, also opened during charge), plate_skirt_f/l/b/r (upper skirt). To break one off: hide it (scale that bone to 0) and spawn a physics chunk copied from the vertices skinned to that bone. Petal plates are rigid on petal_*_01..05 and the tail vertebrae on tail_01..06. The core bone scale is animated (pulse/swell); socket_core is not parented to it so it does not scale."
+ "notes": "LOOP 3: no bone, socket, clip or event renames. The petals, cowl, mantle, cage, skirt and tail plates were rebuilt with the Cinder's plate generator (keeled, serrated, chipped blades). The back petal petal_c_01..05 + petal_c_tip is 1.22x longer (it stands as a crest above the cowl), so socket_attack_c sits further out and the bounds height is 3.55 m. Blades are narrower: collision petal_radius 0.15 (was 0.18). LOOP 2 (v3) BONE RENAMES: arm_{l,r,c}_01..05 -> petal_{l,r,c}_01..05, arm_{k}_tip -> petal_{k}_tip; cable_* -> tendril_{a,b,c}_01..03; plate_cowl_l/r -> plate_hood_fl/fr/l/r/b (five hood shards). Unchanged: root, body, chest, core, neck, head, ring, spine_01/02, tail_01..06, plate_mantle_l/r, plate_back, cage_l/r, plate_skirt_f/l/b/r, every socket name, clip names, event names, hover height, glow-curve format. Origin = root bone on the ground under the Warden; it faces +Z (glTF). Root never moves in any clip. Hover: the body bone sits at 1.84 m; all hover bob/drift is inside the clips relative to root. Petals (the three arms): petal_l = front-left hub, petal_r = front-right hub, petal_c = back hub on the ring. Each is five overlapping keeled, serrated ceramic blades (concave inner face, sinew and molten seams beneath) plus a pointed emitter blade with two barbs. At rest they stand as a crest (c) and two wings (l/r); spawn opens them from a closed bud one at a time; in the aim pose l and r reach forward as a claw and c arches over the hood like a stinger. socket_attack_l/r/c are the tip ends. socket_muzzle (child of chest, ~1.35 m in front of the core) is where the converged volley starts; its local +Y (bone direction) is the firing direction. In the charge end pose all three tips POINT at it (IK solved, baked to FK; aim lines pass within ~5 cm): l and r tips sit ~0.4 m behind/beside it, c arches over the hood and aims down at it from ~1.5 m. Spawn bolts at socket_muzzle (flashes at the tips) and orient them toward the target. socket_core is the weak point (core centre). Put an orange point light there (~3-4 m range) and drive it with the core_glow curve; socket_head is inside the hood (faint ember light optional). Clip chaining: hover_idle frame 0 is the base pose. charge/hit/stagger/death start on it; charge ends on the aim pose and fire starts from that exact pose; spawn, fire and stagger end on hover_idle frame 0. move: in place, authored for ~5 m/s forward travel (lean, arms swept back, tail streaming). Blend it in by speed and bank the root (roll toward the strafe direction) for strafing. hit is additive-ready: frame 0 equals hover_idle frame 0, only chest/neck/head/ring/petals/plates/core/cage move (root, body, spine, tail and tendril tracks are constant). Use THREE.AnimationUtils.makeClipAdditive(hit, 0) and play it with AdditiveAnimationBlendMode on top of whatever is running. stagger is the vulnerable window: events vulnerable_start / vulnerable_end; the core flickers (see glow curve). death: the body falls 1.52 m to the ground inside the clip (relative to root; do not apply gravity to the root). Event ground_hit is the impact (camera shake, dust, plate chunks). The petals, tendrils and tail are simulated (ragdoll-like) and settle on the ground plane at y=0; on uneven ground keep the root on the floor below. Glow: materials core_glow, seam_glow and tip_glow are the animated emissives. Their emissive maps are HEAT MASKS (luminance = heat, white = hottest) for the shared molten shader; emissiveFactor carries the tint. Each clip carries `glow` curves ([time, multiplier] at 30 Hz) per material: multiply the material's base emissiveIntensity (see emissive_strength, exported via KHR_materials_emissive_strength) by the curve value. 1.0 = normal idle glow. Every mesh vertex carries a float `_plate` attribute (one id per plate / part) for the ceramic shader's per-plate value and glossy-fired vs matte pick. Breakable plates: big plates are separate mesh islands rigidly weighted to single bones (plate_bones list): plate_hood_fl/fr/l/r/b (the five hood shards), plate_mantle_l/r (front shoulder yoke plates), plate_back (back plate), cage_l/cage_r (the rib-cage bars round the core, also opened during charge), plate_skirt_f/l/b/r (upper skirt). To break one off: hide it (scale that bone to 0) and spawn a physics chunk copied from the vertices skinned to that bone. Petal plates are rigid on petal_*_01..05 and the tail vertebrae on tail_01..06. The core bone scale is animated (pulse/swell); socket_core is not parented to it so it does not scale."
 }
