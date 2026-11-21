@@ -1,0 +1,137 @@
+{
+  "name": "rim_cliffs",
+  "pieces": {
+    "rim_cliff_w1": {
+      "tris": 29998,
+      "min": [
+        -21.17,
+        -5.21,
+        -16.2
+      ],
+      "max": [
+        21.18,
+        36.22,
+        5.08
+      ]
+    },
+    "rim_cliff_w2": {
+      "tris": 31998,
+      "min": [
+        -20.17,
+        -5.21,
+        -16.19
+      ],
+      "max": [
+        20.15,
+        30.33,
+        8.38
+      ]
+    },
+    "rim_cliff_w3": {
+      "tris": 30000,
+      "min": [
+        -19.16,
+        -5.17,
+        -16.22
+      ],
+      "max": [
+        19.21,
+        38.57,
+        3.12
+      ]
+    },
+    "rim_cliff_w4": {
+      "tris": 26000,
+      "min": [
+        -18.15,
+        -5.23,
+        -15.23
+      ],
+      "max": [
+        18.15,
+        31.46,
+        3.0
+      ]
+    },
+    "rim_cliff_w5": {
+      "tris": 34000,
+      "min": [
+        -24.2,
+        -5.24,
+        -18.2
+      ],
+      "max": [
+        24.14,
+        44.46,
+        5.05
+      ]
+    },
+    "rim_spire_a": {
+      "tris": 8000,
+      "min": [
+        -4.52,
+        -4.15,
+        -5.01
+      ],
+      "max": [
+        5.62,
+        22.0,
+        4.61
+      ]
+    },
+    "rim_spire_b": {
+      "tris": 8000,
+      "min": [
+        -2.73,
+        -4.08,
+        -2.38
+      ],
+      "max": [
+        3.18,
+        15.38,
+        2.52
+      ]
+    },
+    "rim_talus_a": {
+      "tris": 8000,
+      "min": [
+        -9.03,
+        -3.22,
+        -4.22
+      ],
+      "max": [
+        9.41,
+        4.84,
+        10.87
+      ]
+    },
+    "rim_talus_b": {
+      "tris": 6000,
+      "min": [
+        -5.86,
+        -3.19,
+        -4.25
+      ],
+      "max": [
+        5.99,
+        3.6,
+        8.61
+      ]
+    },
+    "rim_talus_c": {
+      "tris": 6000,
+      "min": [
+        -4.31,
+        -3.13,
+        -4.16
+      ],
+      "max": [
+        4.29,
+        6.33,
+        10.8
+      ]
+    }
+  },
+  "baked": true,
+  "notes": "Rim cliff kit (art/env_rim/cliffs.py). Each piece is a node rim_cliff_w*/rim_spire_*; origin at the base of the face, centre of its width; the face looks toward +Z, +Y up, -Z goes into the hill. Shared atlas: basecolor (with long AO), ORM (AO, roughness, 0), normal. Collision proxy per piece: col_<name> (material 'collider', hide it). rim_talus_*: scree fans, apex at the wall (origin), spreading toward +Z."
+}
