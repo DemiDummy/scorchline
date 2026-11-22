@@ -2,136 +2,136 @@
   "name": "rim_cliffs",
   "pieces": {
     "rim_cliff_w1": {
-      "tris": 29998,
+      "tris": 31500,
       "min": [
-        -21.17,
-        -5.21,
-        -16.2
+        -21.22,
+        -5.27,
+        -16.27
       ],
       "max": [
-        21.18,
-        36.22,
-        5.08
+        21.46,
+        36.34,
+        5.96
       ]
     },
     "rim_cliff_w2": {
-      "tris": 31998,
+      "tris": 33600,
       "min": [
-        -20.17,
-        -5.21,
-        -16.19
+        -20.28,
+        -5.35,
+        -16.3
       ],
       "max": [
-        20.15,
-        30.33,
-        8.38
+        20.21,
+        30.4,
+        7.91
       ]
     },
     "rim_cliff_w3": {
-      "tris": 30000,
+      "tris": 31500,
       "min": [
-        -19.16,
-        -5.17,
-        -16.22
+        -19.26,
+        -5.28,
+        -16.31
       ],
       "max": [
-        19.21,
-        38.57,
-        3.12
+        19.26,
+        38.75,
+        3.58
       ]
     },
     "rim_cliff_w4": {
-      "tris": 26000,
+      "tris": 27300,
       "min": [
-        -18.15,
-        -5.23,
-        -15.23
+        -18.24,
+        -5.42,
+        -15.61
       ],
       "max": [
-        18.15,
-        31.46,
-        3.0
+        18.68,
+        31.47,
+        2.99
       ]
     },
     "rim_cliff_w5": {
-      "tris": 34000,
+      "tris": 35700,
       "min": [
-        -24.2,
+        -24.24,
         -5.24,
-        -18.2
+        -18.26
       ],
       "max": [
-        24.14,
-        44.46,
-        5.05
+        24.5,
+        44.59,
+        5.97
       ]
     },
     "rim_spire_a": {
-      "tris": 8000,
+      "tris": 9600,
       "min": [
-        -4.52,
-        -4.15,
-        -5.01
+        -4.55,
+        -4.16,
+        -4.91
       ],
       "max": [
-        5.62,
-        22.0,
-        4.61
+        5.66,
+        22.07,
+        4.63
       ]
     },
     "rim_spire_b": {
-      "tris": 8000,
+      "tris": 9600,
       "min": [
-        -2.73,
-        -4.08,
-        -2.38
+        -2.83,
+        -4.17,
+        -2.46
       ],
       "max": [
-        3.18,
-        15.38,
-        2.52
+        3.27,
+        15.48,
+        2.41
       ]
     },
     "rim_talus_a": {
-      "tris": 8000,
+      "tris": 15200,
       "min": [
-        -9.03,
-        -3.22,
-        -4.22
+        -9.09,
+        -3.16,
+        -4.17
       ],
       "max": [
         9.41,
-        4.84,
-        10.87
+        4.61,
+        10.79
       ]
     },
     "rim_talus_b": {
-      "tris": 6000,
+      "tris": 11400,
       "min": [
-        -5.86,
-        -3.19,
-        -4.25
+        -5.79,
+        -3.1,
+        -4.19
       ],
       "max": [
-        5.99,
-        3.6,
-        8.61
+        6.13,
+        3.62,
+        8.68
       ]
     },
     "rim_talus_c": {
-      "tris": 6000,
+      "tris": 11400,
       "min": [
-        -4.31,
+        -4.36,
         -3.13,
-        -4.16
+        -4.13
       ],
       "max": [
-        4.29,
-        6.33,
-        10.8
+        4.76,
+        6.51,
+        10.64
       ]
     }
   },
   "baked": true,
-  "notes": "Rim cliff kit (art/env_rim/cliffs.py). Each piece is a node rim_cliff_w*/rim_spire_*; origin at the base of the face, centre of its width; the face looks toward +Z, +Y up, -Z goes into the hill. Shared atlas: basecolor (with long AO), ORM (AO, roughness, 0), normal. Collision proxy per piece: col_<name> (material 'collider', hide it). rim_talus_*: scree fans, apex at the wall (origin), spreading toward +Z."
+  "notes": "Rim cliff kit (art/env_rim/cliffs.py). Each piece is a node rim_cliff_w*/rim_spire_*; origin at the base of the face, centre of its width; the face looks toward +Z, +Y up, -Z goes into the hill. Shared atlas: basecolor (with long AO), ORM (AO, roughness, curvature 0.5 = flat; glTF reads B as metallic: ignore it), tangent-space normal (MikkTSpace: the game computes tangents at load, three/addons/libs/mikktspace). Collision proxy per piece: col_<name> (material 'collider', hide it). rim_talus_*: scree fans, apex at the wall (origin), spreading toward +Z."
 }

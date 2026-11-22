@@ -138,7 +138,7 @@
     "socket_mag"
   ],
   "fps": 60,
-  "triangles": 124349,
+  "triangles": 121317,
   "materials": {
     "animated": [
       "coil_glow",
