@@ -8,6 +8,6 @@ Kilnborn, a dash with two charges. A work in progress: the graphics and animatio
 load compiles shaders and takes about half a minute).
 
 WASD move, mouse look, Space jump and double jump, Shift dash, Ctrl or C slide, left mouse fire, 1 / 2 weapons,
-R reload, F inspect, E use.
+R reload, F inspect, E use, V kick.
 
 This repo only holds the built game. It's published from a private source repo by `tools/release-pages.sh`.
